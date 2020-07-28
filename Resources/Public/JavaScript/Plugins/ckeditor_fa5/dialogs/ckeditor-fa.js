@@ -102,7 +102,7 @@ function loadCSS(href) {
                 },
             ],
             onLoad: function () {
-                editor.config.contentsCss.map(function(src, i){
+                editor.config.fontAwesomeCss.map(function(src, i){
                     loadCSS(src);
                 })
                 // Toogle Options
